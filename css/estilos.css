@@ -1,0 +1,670 @@
+/* css*/
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+/* paleta
+#2C2C2C negro
+#ABABAB gris medio
+#FFBF5F naranja
+#EDEDED gris claro */
+
+
+    
+body {
+    background-color: white;
+}
+/* tags solo para tipografias */
+/* voy a usar class para los titulos segun pagina */
+
+h1, h2, h3 {
+    font-family: 'Mulish', sans-serif;
+}
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    
+    height: 102px;
+    box-shadow: 0px 2px 5px #ababab;
+    padding: 1rem;
+    position: relative;
+    
+}
+.headercontenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    object-position: center;
+    align-items: center;
+}
+.header__img {
+    height: 50px;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    
+}
+.header__nav a {
+    /* list-style: none; */
+    color: #2c2c2c;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    margin: 16px;
+}
+/* END OF HEADER */
+
+/* FOOTER */
+.footer {
+    background-color: #2c2c2c;
+    height:fit-content;
+    width: 100%;    
+}
+.footer__contenedor{
+    max-width: 80%;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;   
+}
+.footer__medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__derechos {
+    color: #ededed;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-style:  italic;
+    padding-top: 4rem;
+}
+.footer__icono {
+    padding: 2rem;
+}
+
+.footer__left p {
+    color: #ededed;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style:  italic;
+}
+.footer__right p {
+    color: #ededed;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style:  italic;
+}
+
+
+/* END OF FOOTER */
+
+ /* LANDING */
+.landingcontenedor {
+    max-width: 80%;
+    margin: auto;
+    padding: 3rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: top;
+}
+
+.textolanding{
+     position: relative;
+     color: #2c2c2c;
+     padding: 2rem;
+}
+.textolanding span{
+    color: #FFBF5F;
+}
+.imagenlanding img{
+    border-radius: 14px;
+    height: 400px;
+    position: relative;
+}
+
+.fraselanding {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.fraselanding img{
+    margin: auto;
+    
+    
+}
+.fraselanding h2{
+    color: #2c2c2c;
+    margin: auto;
+    text-align: center;
+}
+.fraselanding h2 span{
+    color: #FFBF5F;
+}
+
+
+/* bem para la tarjeta que se repite con diferente contenido */
+.bem {
+    background-color: #ededed;
+    height: auto;
+   padding: 2rem;
+    max-width: 100%;
+    
+    
+}
+.tarjeta {
+    background-color: whitesmoke;
+    margin: 2rem auto;
+    max-width: 70%;
+    height:auto;
+    border-radius: 14px;
+    box-shadow: 5px 10px 10px  #ababab86 ; 
+}
+.tarjetacontenedor{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    ;
+}
+.textotarjeta{
+    
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    max-width: 50%;
+    justify-content: space-around;
+}
+
+.tarjeta__imagen {
+    height: 360px;
+    border-radius: 14px;
+    position: relative;
+    
+} 
+.tarjeta__cta {
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    max-width: 136px; 
+    max-height: 56px;
+    margin-top: 2rem;   
+}
+
+.tarjeta__txt{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #ababab;
+    text-align: left;
+    text-align: justify;
+    max-width: 80%;
+    
+}
+
+.tarjeta__title, .text__subtitle {
+    text-align: left;
+    max-width: 80%;  
+}
+
+.tarjeta__cta{
+    background-color:#e4e4e4;
+        border-radius: 16px;
+        border: 4px #6e6e6e;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 18px;
+        padding: 12px;
+}
+.tarjeta__cta a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+/* END OF LANDING */
+
+.asesorias {
+    width:100%;
+    height: 246px;
+    background-color: #ababab;
+    padding-left: 102px;
+    padding-top: 48px;
+        
+}
+.asesorias p {
+    letter-spacing: 0.2px;
+    font-size: 32px;
+}
+.contenedorp {
+   /*  width: 992px; */
+    padding: 102px 224px 102px 224px;
+}
+.parrafos {
+    text-align: justify;
+}
+
+/* BOTONES GRIS CONF */
+.botongris {
+    /* display: inline-block; */
+        background-color:#e4e4e4;
+        border-radius: 16px;
+        border: 4px #6e6e6e;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 18px;
+        padding: 12px;
+        margin-top: 20px;
+}
+.botongris a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+.contenedorp2 {
+    padding: 102px 224px 102px 224px;
+    background-color: #EDEDED ;
+}
+.PERSONAS {
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+}
+.PERSONASCONTENEDOR {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    object-position: center;
+    align-items: center;
+}
+.tarjetapersona {
+    background-color: #ededed;
+    width: 264px;
+    height: 360px;
+    padding: 1rem;
+    border-radius: 16px;
+    margin: 32px;    
+}
+
+.tarjetapersona__img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 148px; /* como las redondeo? */
+}
+.tarjetapersona__nombre {
+    color: #2c2c2c;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.tarjetapersona__ocupacion {
+    color: #FFBF5F;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* CONTACT PAGE */
+
+.contacto{
+    max-width: 70%;
+    padding: auto;
+    margin: 2rem auto;
+}
+.paginacontacto {
+    background-color: #EDEDED;
+}
+.infocontacto {
+    background-color: #EDEDED;
+    max-width: 1120px;
+    height: auto;
+    display: flex;
+    margin: 64px auto;
+    justify-content: center;
+}
+.formulario {
+    background-color: #EDEDED;
+}
+.tarjetainfo {
+    background-color: white;
+    width: 192px;
+    height: 110px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    border-radius: 14px;
+}
+.tarjetainfo__icon {
+    height: 32px;
+}
+
+
+.tarjetainfo__txt {
+    font-style: italic;
+    color: #6e6e6e;
+    margin-top: 12px;
+}
+ 
+/* FORM STYLE */
+
+.formulario{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    padding: 2rem;
+    background-color: rgb(216, 215, 215);
+    border-radius: 16px;
+}
+
+.formulario__contenedor { 
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+.formulario__contenedor form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "nombre asunto"
+        "mail mensaje"
+        "telefono mensaje"
+        ". boton";
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    
+}
+
+
+.nombre {
+    grid-area: nombre;
+}
+
+.asunto {
+    grid-area: asunto;
+}
+
+.email {
+    grid-area: mail;
+}
+
+.mensaje {
+    grid-area: mensaje;
+}
+
+.telefono {
+    grid-area: telefono;
+}
+
+.botonform--enviar  {
+
+    height: 32px;
+    background-color: #6e6e6e;
+    color: #FFf;
+}
+.botonform--enviar:hover {
+    background: #FFBF5F;
+}
+
+.formulario__contenedor textarea {
+    border-radius: 14px;
+    width: 220px;
+    height: 104px;
+}
+.formulario__contenedor input {
+    height: 40px;
+    border-radius: 14px;
+    width: 220px;
+    
+}
+
+
+/* GALERIA */
+
+
+.galeriatxt {
+    max-width: 70%;
+    padding: auto;
+    margin: 2rem auto;
+}
+
+.galeria {
+    max-width: 70%;
+    margin: 2rem auto 2rem auto;
+    
+}
+.galeria__img {
+    width: 240px;
+    height: 240px;
+    margin: 12px;
+    border-radius: 16px;
+}
+
+.grillaimagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grillaimagenes img:hover{
+    border: 2px solid #FFBF5F;
+}
+
+/* media querys */
+/* tienen que estar al final del archivo y tienen un orden indicado */
+
+/* Tablet */
+@media screen and (max-width: 1080px){
+    
+    .landingcontenedor {
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 1fr;
+    }
+/* tarjetas index */
+
+    .tarjeta{
+        max-width: max-content;
+        padding: 1rem;
+    }
+    .tarjetacontenedor{
+    flex-direction: column;
+    padding: 1rem;
+    max-width:100%;
+    }
+
+    .textotarjeta{
+        max-width: fit-content;
+        justify-content: center;
+        margin: auto;
+    }
+    .textotarjeta p, .textotarjeta h2{
+        max-width: 100%;
+    }
+
+    .tarjetacontenedor button {
+        margin-bottom: 2rem;
+    }
+    .tarjetacontenedor img {
+        max-width:fit-content;
+        margin: 0 1rem;
+        
+    }
+    .fraselanding h2{
+        font-size: 18px;
+    }
+
+    /* GALERIA */
+
+    .galeria{
+        max-width: max-content;
+    }
+    .grillaimagenes{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+/* footer */
+
+    .footer__left p, .footer__right p {
+        font-size: 14px;
+    }
+}
+
+/* Moobile */
+
+@media screen and (max-width: 600px) {
+    
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    /* nav bar */
+    .header {
+        height: fit-content;
+    }
+    
+    .headercontenedor {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__nav {
+        flex-wrap: wrap;
+    }
+    .header__nav li a {
+        font-size: 16px;
+    }
+
+    /* landing */
+    .landingcontenedor{
+        max-width: fit-content;
+        padding: 1rem;
+    }
+    .textolanding h2{
+        font-size: 18px ;
+    }
+    .textolanding h1{
+        font-size: 24px ;
+    }
+    .imagenlanding img{
+        max-width:360px;
+        overflow: auto;
+    }
+
+    /* GALERIA */
+
+    .galeria{
+        max-width: max-content;
+    }
+    .grillaimagenes{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    /* CONTACTO */
+    .formulario{
+        max-width: max-content;
+        margin: 1rem;
+        padding: 1rem;
+                
+    }
+
+    .formulario__contenedor{
+        max-width: max-content;
+        margin: 1rem;
+    }
+
+    .formulario__contenedor form {
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr 2fr 1fr;
+        grid-template-areas: "nombre"
+        "email"
+        "telefono"
+        "asunto"
+        "mensaje"
+        "boton";
+        
+    }  
+    .nombre {
+        grid-area: nombre;
+    }
+    
+    .asunto {
+        grid-area: asunto;
+    }
+    
+    .email {
+        grid-area: mail;
+    }
+    
+    .mensaje {
+        grid-area: mensaje;
+    }
+    
+    .telefono {
+        grid-area: telefono;
+    } 
+
+    .botonform--enviar{
+        grid-area: boton;
+    }
+    
+  
+    footer
+
+    .footer__contenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .footer__right {
+        display: none;
+    }
+}
