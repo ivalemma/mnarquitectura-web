@@ -37,6 +37,7 @@ p {
     box-shadow: 0px 2px 5px #ababab;
     padding: 1rem;
     position: relative;
+    background: none;
     
 }
 .headercontenedor {
@@ -150,10 +151,10 @@ p {
     max-height: fit-content;
     max-width: 80%;
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     position: relative;
 }
 .fraselanding img{
@@ -256,80 +257,100 @@ p {
 
 /* END OF LANDING */
 
+/* ASESORIAS */
+
 .asesorias {
     width:100%;
     height: 246px;
     background-color: #ababab;
-    padding-left: 102px;
-    padding-top: 48px;
-        
+    padding: 2rem; 
+    background-image: url(../imagenes/asesoriasbanner.jpg);
+    background-size: cover;
 }
-.asesorias p {
-    letter-spacing: 0.2px;
-    font-size: 32px;
+
+.asesorias__titulo {
+    max-width: 80%;
+    padding: auto;
+    margin: 2rem auto;
 }
+
 .contenedorp {
-   /*  width: 992px; */
-    padding: 102px 224px 102px 224px;
+    justify-content: center;
+    padding: 2rem
 }
+
+
 .parrafos {
     text-align: justify;
+    max-width: 80%;
+    margin: auto;
 }
 
 /* BOTONES GRIS CONF */
 .botongris {
-    /* display: inline-block; */
-        background-color:#e4e4e4;
+    
+        background-color:#f1efef;
         border-radius: 16px;
-        border: 4px #6e6e6e;
         color: #eeeeee;
         text-align: center;
         font-size: 18px;
         padding: 12px;
         margin-top: 20px;
 }
+.botongris :hover {
+    border:#FFBF5F;
+}
 .botongris a {
     text-decoration: none;
     color: #6e6e6e;
 }
 
-.contenedorp2 {
-    padding: 102px 224px 102px 224px;
-    background-color: #EDEDED ;
+.parrafos ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+/* NOSOTROS PAGE */
+
 .PERSONAS {
     width: 100%;
     position: relative;
     padding: 2rem;
 }
 .PERSONASCONTENEDOR {
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 100%;
+    max-width: 70%;
+    margin: auto;
+    max-width: fit-content;
     display: flex;
     justify-content: center;
-    object-position: center;
     align-items: center;
 }
 .tarjetapersona {
     background-color: #ededed;
     width: 264px;
-    height: 360px;
+    height: auto;
     padding: 1rem;
     border-radius: 16px;
-    margin: 32px;    
+    margin: 2rem;
+    box-shadow: 5px 10px 10px  #ababab86 ;  
+    display: flex;
+    flex-direction: column;  
 }
 
 .tarjetapersona__img {
     object-fit: cover;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     border-radius: 148px; /* como las redondeo? */
+
 }
 .tarjetapersona__nombre {
     color: #2c2c2c;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 1rem;
+    
 }
 
 .tarjetapersona__ocupacion {
@@ -340,10 +361,15 @@ p {
     font-style: italic;
 }
 
+.contenedorp2{
+    justify-content: center;
+    padding: 2rem
+}
+
 /* CONTACT PAGE */
 
 .contacto{
-    max-width: 70%;
+    max-width: 80%;
     padding: auto;
     margin: 2rem auto;
 }
@@ -352,10 +378,10 @@ p {
 }
 .infocontacto {
     background-color: #EDEDED;
-    max-width: 1120px;
+    max-width: fit-content;
     height: auto;
     display: flex;
-    margin: 64px auto;
+    margin: 2rem auto;
     justify-content: center;
 }
 .formulario {
@@ -364,14 +390,15 @@ p {
 .tarjetainfo {
     background-color: white;
     width: 192px;
-    height: 110px;
-    padding: 12px;
+    height: auto;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 16px;
     border-radius: 14px;
+    box-shadow: 5px 10px 10px  #ababab86 ;
 }
 .tarjetainfo__icon {
     height: 32px;
@@ -381,7 +408,7 @@ p {
 .tarjetainfo__txt {
     font-style: italic;
     color: #6e6e6e;
-    margin-top: 12px;
+    margin-top: 1rem;
 }
  
 /* FORM STYLE */
@@ -464,16 +491,23 @@ p {
 
 /* GALERIA */
 
-
+.galeriabanner {
+    width:100%;
+    height: 246px;
+    background-color: #ababab;
+    padding: 2rem; 
+    background-image: url(../imagenes/asesoriasbanner.jpg);
+    background-size: cover;
+}
 .galeriatxt {
-    max-width: 70%;
+    max-width: 80%;
     padding: auto;
     margin: 2rem auto;
 }
 
 .galeria {
     max-width: 70%;
-    margin: 2rem auto 2rem auto;
+    margin: 4rem auto;
     
 }
 .galeria__img {
@@ -484,6 +518,7 @@ p {
 }
 
 .grillaimagenes{
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -527,8 +562,9 @@ p {
         margin-bottom: 2rem;
     }
     .tarjetacontenedor img {
-        max-width:fit-content;
-        margin: 0 1rem;
+        margin: 0;
+        width: 400px;
+        height: auto;
         
     }
     .fraselanding h2{
@@ -544,6 +580,16 @@ p {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
+
+/* nosotros */
+.tarjetapersona__nombre {
+    font-size: 16px;    
+}
+
+.tarjetapersona__ocupacion {
+    font-size: 14px;
+}
+
 
 /* footer */
 
@@ -585,8 +631,10 @@ p {
 
     /* landing */
     .landingcontenedor{
-        max-width: fit-content;
+        max-width: max-content;
         padding: 1rem;
+        gap: 0;
+        justify-content: left;
     }
     .textolanding h2{
         font-size: 18px ;
@@ -594,9 +642,17 @@ p {
     .textolanding h1{
         font-size: 24px ;
     }
+
     .imagenlanding img{
-        max-width:360px;
-        overflow: auto;
+        width: 300px;
+        position: relative;
+    }
+
+    .tarjetacontenedor img {
+        margin: 0;
+        width: 240px;
+        height: auto;
+        
     }
 
     /* GALERIA */
@@ -610,6 +666,19 @@ p {
     }
 
     /* CONTACTO */
+
+    .infocontacto {
+        flex-direction: column;
+    }
+    .tarjetainfo{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .tarjetainfo__txt{
+        margin: 0;
+    }
+
     .formulario{
         max-width: max-content;
         margin: 1rem;
@@ -657,8 +726,45 @@ p {
         grid-area: boton;
     }
     
-  
-    footer
+  /* nosotros */
+.PERSONASCONTENEDOR{
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+  .tarjetapersona{
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.tarjetapersona__img{
+    height: 52px;
+    width: auto;
+}
+
+.tarjetapersona__texto{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetapersona__nombre {
+    font-size: 14px;   
+}
+
+.tarjetapersona__ocupacion {
+    font-size: 12px;
+}
+
+    /* footer */
 
     .footer__contenedor{
         grid-template-columns: 1fr;
@@ -667,4 +773,6 @@ p {
     .footer__right {
         display: none;
     }
+
+    
 }
