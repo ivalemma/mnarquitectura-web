@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MeleNapo Arquitectos</title>
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <!-- librerias de iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -21,9 +24,9 @@
 <body>
     <header class="header">
         <div class="headercontenedor">
-        <img class="header__img" src="./imagenes/LogoEntero.svg" alt="Logo" class="logoheader">
+            <img class="header__img" src="./imagenes/LogoEntero.svg" alt="Logo" class="logoheader">
             <nav>
-            <!-- es solo contenedor. es una manera de saber que aca van listas de enlaces o navegacion -->
+                <!-- es solo contenedor. es una manera de saber que aca van listas de enlaces o navegacion -->
                 <ul class="header__nav">
                     <li>
                         <a href="index.html">Inicio</a>
@@ -47,11 +50,13 @@
                     <h1>Desarrollamos tu <span>sueños</span></h1>
                 </div>
                 <div class="imagenlanding">
-                   <img src="./imagenes/landing 1.jpg" alt="Exterior de casa">    
+                    <img src="./imagenes/landing 1.jpg" alt="Exterior de casa">
                 </div>
             </section>
+           
             <div class="fraselanding">
-                <h2>Generamos propuestas, transferimos experiencias, materializamos ideas. <span>Creamos amigos.</span></h2>
+                <h2>Generamos propuestas, transferimos experiencias, materializamos ideas. <span>Creamos amigos.</span>
+                </h2>
                 <img class="landing__img" src="./imagenes/LogoGris.svg" alt="">
             </div>
         </div>
@@ -61,15 +66,55 @@
         <section class="bem">
             <!-- tarjetas -->
 
+            <div class="container">
+
+            <div class="card mb-3"  style="max-width: 1000px;">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img src="./imagenes/espacios 2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h3 class="card-title">Disfruta de tus espacios con la ayuda de profesionales</h3>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eius
+                        necessitatibus, ut aliquid
+                        reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga delectus
+                        voluptate ullam </p>
+                      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div> 
+
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./imagenes/espacios 2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              
+
             <!-- card1 -->
             <div class="tarjeta">
                 <div class="tarjetacontenedor">
                     <section class="textotarjeta">
                         <h2 class="tarjeta__title">Disfruta de tus espacios con la ayuda de profesionales</h2>
-                        <h3 class="tarjeta__subtitle">Asesorias online y presenciales</h3> 
-                        <p class="tarjeta__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eius necessitatibus, ut aliquid
-                        reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga delectus voluptate ullam
-                        voluptatem architecto cupiditate similique!</p>
+                        <h3 class="tarjeta__subtitle">Asesorias online y presenciales</h3>
+                        <p class="tarjeta__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eius
+                            necessitatibus, ut aliquid
+                            reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga delectus
+                            voluptate ullam
+                            voluptatem architecto cupiditate similique!</p>
                         <button class="tarjeta__cta"><a href="./pages/asesorias.html">Ver más</a></button>
                     </section>
                     <img class="tarjeta__imagen" src="./imagenes/espacios 2.jpg" alt="Living">
@@ -82,10 +127,12 @@
                 <div class="tarjetacontenedor">
                     <section class="textotarjeta">
                         <h2 class="tarjeta__title">Disfruta de tus espacios con la ayuda de profesionales</h2>
-                        <h3 class="tarjeta__subtitle">Asesorias online y presenciales</h3> 
-                        <p class="tarjeta__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eius necessitatibus, ut aliquid
-                        reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga delectus voluptate ullam
-                        voluptatem architecto cupiditate similique!</p>
+                        <h3 class="tarjeta__subtitle">Asesorias online y presenciales</h3>
+                        <p class="tarjeta__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eius
+                            necessitatibus, ut aliquid
+                            reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga delectus
+                            voluptate ullam
+                            voluptatem architecto cupiditate similique!</p>
                         <button class="tarjeta__cta"><a href="./pages/asesorias.html">Ver más</a></button>
                     </section>
                     <img class="tarjeta__imagen" src="./imagenes/espacios 2.jpg" alt="Living">
@@ -95,54 +142,61 @@
 
     <footer class="footer">
         <section class="footer__contenedor">
-        <!-- aca podemos poner un nav, porque es contenedor de navegacion pero para liks externos (como redes sociales) podemos usar div -->
-        <section class="footer__left"> <!-- seccion left -->
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-            <p>
-                Lorem, ipsum dolor.
-            </p>
+            <!-- aca podemos poner un nav, porque es contenedor de navegacion pero para liks externos (como redes sociales) podemos usar div -->
+            <section class="footer__left">
+                <!-- seccion left -->
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+            </section>
+            <section class="footer__medio">
+                <!-- Seccin del medio -->
+                <div class="footer__logo">
+                    <img src="./imagenes/LogoGris.svg" alt="Logo">
+                </div>
+                <div class="_footer_iconos">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkein.com" target="_blank"><i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer__derechos">
+                    <p>Todos los derechos reservados 2022 </p>
+                </div>
+            </section>
+            <section class="footer__right">
+                <!-- seccion right -->
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+                <p>
+                    Lorem, ipsum dolor.
+                </p>
+            </section>
         </section>
-        <section class="footer__medio"> <!-- Seccin del medio -->
-            <div class="footer__logo">
-                <img src="./imagenes/LogoGris.svg" alt="Logo">
-            </div>
-            <div class="_footer_iconos">
-                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>  
-                </a>
-                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>   
-                </a>
-                <a href="https://linkein.com" target="_blank"><i class="fab fa-linkedin-in"></i>
-                </a>
-            </div>
-            <div class="footer__derechos">
-                <p>Todos los derechos reservados 2022 </p>
-            </div>
-        </section>
-        <section class="footer__right"> <!-- seccion right -->
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-            <p>
-                Lorem, ipsum dolor.
-            </p>
-        </section>    
-    </section>
-      
+
     </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
