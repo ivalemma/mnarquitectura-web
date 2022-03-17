@@ -349,7 +349,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
+
 .tarjetapersona {
     background-color: #ededed;
     width: 264px;
@@ -360,6 +363,18 @@ p {
     box-shadow: 5px 10px 10px  #ababab86 ;  
     display: flex;
     flex-direction: column;  
+}
+.hola{
+    max-height: fit-content;
+    padding: 1rem;
+    border-radius: 16px;
+    width: 264px;
+    
+}
+.hola img{
+    margin: 0;
+    height: 50%;
+    border-radius: 148px;
 }
 
 .tarjetapersona__img {
