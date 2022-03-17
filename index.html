@@ -22,23 +22,74 @@
 </head>
 
 <body>
+    <!-- <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img class="header__img" src="./imagenes/LogoEntero.svg" alt="Logo" class="logoheader">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/Galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/asesorias.html">Asesorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/sobrenosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </header> -->
+
     <header class="header">
         <div class="headercontenedor">
             <img class="header__img" src="./imagenes/LogoEntero.svg" alt="Logo" class="logoheader">
-            <nav>
-                <!-- es solo contenedor. es una manera de saber que aca van listas de enlaces o navegacion -->
-                <ul class="header__nav">
+            <nav >
+                
+                    <ul class="navbar me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/Galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/asesorias.html">Asesorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobrenosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                
+                <!-- <ul class="header__nav" >
                     <li>
                         <a href="index.html">Inicio</a>
-                    </li> <!-- sirve # para ir a la pagina donde estas -->
+                    </li> 
                     <li> <a href="./pages/Galeria.html"> Galeria</a></li>
                     <li> <a href="./pages/asesorias.html">Asesorias</a> </li>
                     <li> <a href="./pages/sobrenosotros.html">Sobre Nosotros</a> </li>
                     <li> <a href="./pages/contacto.html">Contacto</a> </li>
-                </ul>
+                </ul> -->
             </nav>
         </div>
     </header>
+
 
     <main>
         <!-- card presentación -->
@@ -53,7 +104,7 @@
                     <img src="./imagenes/landing 1.jpg" alt="Exterior de casa">
                 </div>
             </section>
-           
+
             <div class="fraselanding">
                 <h2>Generamos propuestas, transferimos experiencias, materializamos ideas. <span>Creamos amigos.</span>
                 </h2>
@@ -67,42 +118,29 @@
             <!-- tarjetas -->
 
             <div class="container">
+                <div class="row">
 
-            <div class="card mb-3"  style="max-width: 1000px;">
-                <div class="row g-0">
-                  <div class="col-md-6">
-                    <img src="./imagenes/espacios 2.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <h3 class="card-title">Disfruta de tus espacios con la ayuda de profesionales</h3>
-                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eius
-                        necessitatibus, ut aliquid
-                        reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga delectus
-                        voluptate ullam </p>
-                      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    <div class="card mb-3" style="max-width: 1000px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./imagenes/espacios 2.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h3 class="card-title">Disfruta de tus espacios con la ayuda de profesionales</h3>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Suscipit eius
+                                        necessitatibus, ut aliquid
+                                        reiciendis soluta aperiam magnam nemo hic? Quo numquam, exercit ationem fuga
+                                        delectus
+                                        voluptate ullam </p>
+                                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-            </div> 
-
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="./imagenes/espacios 2.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      <button type="button" class="btn btn-outline-secondary">Secondary</button>
-                    </div>
-                  </div>
-                </div>
-              </div> 
-              
+            </div>
 
             <!-- card1 -->
             <div class="tarjeta">
