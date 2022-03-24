@@ -1,0 +1,48 @@
+/* FOOTER */
+.footer {
+    background-color: $colortypo;
+    height:fit-content;
+    width: 100%;    
+}
+.footer__contenedor{
+    max-width: 80%;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;   
+}
+.footer__medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__derechos {
+    color: $colorsecundario;
+    font-family: '$tipografiaprimaria', sans-serif;
+    font-size: 14px;
+    font-style:  italic;
+    padding-top: 4rem;
+}
+.footer__icono {
+    padding: 2rem;
+}
+
+.footer__left p {
+    color: $colorsecundario;
+    font-family: '$tipografiaprimaria', sans-serif;
+    font-size: 18px;
+    font-style:  italic;
+}
+.footer__right p {
+    color: $colorsecundario;
+    font-family: '$tipografiaprimaria', sans-serif;
+    font-size: 18px;
+    font-style:  italic;
+}
+
+
+/* END OF FOOTER */

@@ -1,0 +1,249 @@
+/* media querys */
+/* tienen que estar al final del archivo y tienen un orden indicado */
+
+/* Tablet */
+@media screen and (max-width: 1080px){
+    
+    .landingcontenedor {
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 1fr;
+    }
+/* tarjetas index */
+
+    .tarjeta{
+        max-width: max-content;
+        padding: 1rem;
+    }
+    .tarjetacontenedor{
+    flex-direction: column;
+    padding: 1rem;
+    max-width:100%;
+    }
+
+    .textotarjeta{
+        max-width: fit-content;
+        justify-content: center;
+        margin: auto;
+    }
+    .textotarjeta p, .textotarjeta h2{
+        max-width: 100%;
+    }
+
+    .tarjetacontenedor button {
+        margin-bottom: 2rem;
+    }
+    .tarjetacontenedor img {
+        margin: 0;
+        width: 400px;
+        height: auto;
+        
+    }
+    .fraselanding h2{
+        font-size: 18px;
+    }
+
+    /* GALERIA */
+
+    .galeria{
+        max-width: max-content;
+    }
+    .grillaimagenes{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+/* nosotros */
+.tarjetapersona__nombre {
+    font-size: 16px;    
+}
+
+.tarjetapersona__ocupacion {
+    font-size: 14px;
+}
+
+
+/* footer */
+
+    .footer__left p, .footer__right p {
+        font-size: 14px;
+    }
+}
+
+/* Moobile */
+
+@media screen and (max-width: 600px) {
+    
+    h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    /* nav bar */
+    .header {
+        height: fit-content;
+    }
+    
+    .headercontenedor {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__nav {
+        flex-wrap: wrap;
+    }
+    .header__nav li a {
+        font-size: 16px;
+    }
+
+    /* landing */
+    .landingcontenedor{
+        max-width: max-content;
+        padding: 1rem;
+        gap: 0;
+        justify-content: left;
+    }
+    .textolanding h2{
+        font-size: 18px ;
+    }
+    .textolanding h1{
+        font-size: 24px ;
+    }
+
+    .imagenlanding img{
+        width: 300px;
+        position: relative;
+    }
+
+    .tarjetacontenedor img {
+        margin: 0;
+        width: 240px;
+        height: auto;
+        
+    }
+
+    /* GALERIA */
+
+    .galeria{
+        max-width: max-content;
+    }
+    .grillaimagenes{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    /* CONTACTO */
+
+    .infocontacto {
+        flex-direction: column;
+    }
+    .tarjetainfo{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+    .tarjetainfo__txt{
+        margin: 0;
+    }
+
+    .formulario{
+        max-width: max-content;
+        margin: 1rem;
+        padding: 1rem;
+                
+    }
+
+    .formulario__contenedor{
+        max-width: max-content;
+        margin: 1rem;
+    }
+
+    .formulario__contenedor form {
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr 2fr 1fr;
+        grid-template-areas: "nombre"
+        "email"
+        "telefono"
+        "asunto"
+        "mensaje"
+        "boton";
+        
+    }  
+    .nombre {
+        grid-area: nombre;
+    }
+    
+    .asunto {
+        grid-area: asunto;
+    }
+    
+    .email {
+        grid-area: mail;
+    }
+    
+    .mensaje {
+        grid-area: mensaje;
+    }
+    
+    .telefono {
+        grid-area: telefono;
+    } 
+
+    .botonform--enviar{
+        grid-area: boton;
+    }
+    
+  /* nosotros */
+.PERSONASCONTENEDOR{
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+  .tarjetapersona{
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.tarjetapersona__img{
+    height: 52px;
+    width: auto;
+}
+
+.tarjetapersona__texto{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetapersona__nombre {
+    font-size: 14px;   
+}
+
+.tarjetapersona__ocupacion {
+    font-size: 12px;
+}
+
+    /* footer */
+
+    .footer__contenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .footer__right {
+        display: none;
+    }
+
+    
+}

@@ -1,0 +1,56 @@
+ /* LANDING */
+ .landingcontenedor {
+    max-width: 80%;
+    margin: auto;
+    padding: 3rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: top;
+}
+
+.textolanding{
+     position: relative;
+     color: $colortypo;
+     padding: 2rem;
+}
+.textolanding span{
+    color: $coloracento;
+}
+.imagenlanding img{
+    border-radius: 14px;
+    height: 400px;
+    position: relative;
+}
+
+.fraselanding {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: fit-content;
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.fraselanding img{
+    margin: auto;
+    
+    
+}
+.fraselanding h2{
+    color: $colortypo;
+    margin: auto;
+    text-align: center;
+}
+.fraselanding h2 span{
+    color: $coloracento;
+}
+
+
+
+
+/* END OF LANDING */

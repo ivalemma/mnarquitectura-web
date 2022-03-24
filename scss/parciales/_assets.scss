@@ -1,0 +1,129 @@
+/* css*/
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+/* paleta
+#$colortypo negro
+$colorprimario gris medio
+$coloracento naranja
+$colorsecundario gris claro */
+
+
+    
+body {
+    background-color: white;
+}
+/* tags solo para tipografias */
+/* voy a usar class para los titulos segun pagina */
+
+h1, h2, h3 {
+    font-family: '$tipografiaprimaria', sans-serif;
+}
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-family: '$tipografiasecundaria', sans-serif;
+}
+
+
+
+
+/* BOTONES GRIS CONF */
+.botongris {
+    
+    background-color:#f1efef;
+    border-radius: 16px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px;
+    margin-top: 20px;
+}
+.botongris :hover {
+border:$coloracento;
+}
+.botongris a {
+text-decoration: none;
+color: #6e6e6e;
+}
+
+/* FORM STYLE */
+
+.formulario{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    padding: 2rem;
+    background-color: rgb(216, 215, 215);
+    border-radius: 16px;
+}
+
+.formulario__contenedor { 
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+.formulario__contenedor form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "nombre asunto"
+        "mail mensaje"
+        "telefono mensaje"
+        ". boton";
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    
+}
+
+
+.nombre {
+    grid-area: nombre;
+}
+
+.asunto {
+    grid-area: asunto;
+}
+
+.email {
+    grid-area: mail;
+}
+
+.mensaje {
+    grid-area: mensaje;
+}
+
+.telefono {
+    grid-area: telefono;
+}
+
+.botonform--enviar  {
+
+    height: 32px;
+    background-color: #6e6e6e;
+    color: #FFf;
+}
+.botonform--enviar:hover {
+    background: $coloracento;
+}
+
+.formulario__contenedor textarea {
+    border-radius: 14px;
+    width: 220px;
+    height: 104px;
+}
+.formulario__contenedor input {
+    height: 40px;
+    border-radius: 14px;
+    width: 220px;
+    
+}
