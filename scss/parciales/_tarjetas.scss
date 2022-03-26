@@ -144,17 +144,21 @@
     border-radius: 148px;
 }
 
+
+
 .tarjetapersona__img {
     object-fit: cover;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 148px; /* como las redondeo? */
+    padding: 2rem;
 
 }
 .tarjetapersona__nombre {
     color: $colortypo;
     font-size: 20px;
     text-align: center;
+    margin-top: 2rem;
     
 }
 

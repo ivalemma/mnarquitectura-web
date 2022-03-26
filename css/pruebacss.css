@@ -113,7 +113,10 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "nombre asunto" "mail mensaje" "telefono mensaje" ". boton";
+  grid-template-areas: "nombre asunto"
+ "mail mensaje"
+ "telefono mensaje"
+ ". boton";
   align-items: center;
   justify-items: center;
   gap: 10px; }
@@ -593,7 +596,12 @@ p {
   .formulario__contenedor form {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr;
-    grid-template-areas: "nombre" "email" "telefono" "asunto" "mensaje" "boton"; }
+    grid-template-areas: "nombre"
+ "email"
+ "telefono"
+ "asunto"
+ "mensaje"
+ "boton"; }
   .nombre {
     grid-area: nombre; }
   .asunto {

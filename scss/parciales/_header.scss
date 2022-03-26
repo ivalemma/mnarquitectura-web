@@ -26,8 +26,12 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    list-style-type: none; 
+    list-style-type: none;
     
+    
+}
+.bg-light{
+    background-color: #fff !important; 
 }
 .navbar a {
     list-style: none; 
