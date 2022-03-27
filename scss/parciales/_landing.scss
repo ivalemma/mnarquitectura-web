@@ -2,7 +2,7 @@
  .landingcontenedor {
     max-width: 80%;
     margin: auto;
-    padding: 3rem;
+    padding: 2rem;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
@@ -22,6 +22,7 @@
     border-radius: 14px;
     height: 400px;
     position: relative;
+    
 }
 
 .fraselanding {
@@ -37,9 +38,12 @@
     position: relative;
 }
 .fraselanding img{
+    margin-bottom: 2rem;
     margin: auto;
     
-    
+}
+.landing__img{
+    margin-bottom: 3rem;
 }
 .fraselanding h2{
     color: $colortypo;

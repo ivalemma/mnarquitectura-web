@@ -40,7 +40,11 @@
   position: relative; }
 
 .fraselanding img {
+  margin-bottom: 2rem;
   margin: auto; }
+
+.landing__img {
+  margin-bottom: 3rem; }
 
 .fraselanding h2 {
   color: #2C2C2C;
