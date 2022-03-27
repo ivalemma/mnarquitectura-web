@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- librerias de iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -58,15 +60,19 @@
         <section class="PERSONAS">
             <div class="PERSONASCONTENEDOR">
                 <!-- tarjeta Nestor -->
-                <div class="tarjetapersona">
+
+
+
+                <div data-aos="fade-up" class="tarjetapersona">
                     <img class="tarjetapersona__img" src="../imagenes/usuario.jpg" alt="Foto Nestor">
                     <div class="tarjetapersona__texto">
                         <h3 class="tarjetapersona__nombre">NESTOR MELE</h3>
                         <p class="tarjetapersona__ocupacion">ARQUITECTO</p>
                     </div>
                 </div>
+
                 <!-- tarjeta Fito -->
-                <div class="tarjetapersona">
+                <div data-aos="fade-up" class="tarjetapersona">
                     <img class="tarjetapersona__img" src="../imagenes/usuario.jpg" alt="Foto Nestor">
                     <div class="tarjetapersona__texto">
                         <h3 class="tarjetapersona__nombre">FITO NAPOLITANO</h3>
@@ -74,7 +80,7 @@
                     </div>
                 </div>
                 <!-- tarjeta Valeria -->
-                <div class="tarjetapersona">
+                <div data-aos="fade-up" class="tarjetapersona">
                     <img class="tarjetapersona__img" src="../imagenes/usuario.jpg" alt="Foto Nestor">
                     <div class="tarjetapersona__texto">
                         <h3 class="tarjetapersona__nombre">VALERIA CERRI</h3>
@@ -85,7 +91,7 @@
 
         </section>
 
-        
+
         <div class="contenedorp2">
             <article class="parrafos">
                 <h3>Sobre Nosotros</h3><br>
@@ -177,6 +183,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

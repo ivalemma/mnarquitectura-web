@@ -68,13 +68,13 @@ body {
 /* tags solo para tipografias */
 /* voy a usar class para los titulos segun pagina */
 h1, h2, h3 {
-  font-family: 'Mulish', sans-serif; }
+  font-family: '$tipografiaprimaria', sans-serif; }
 
 h1 {
   font-size: 32px; }
 
 p {
-  font-family: 'Roboto', sans-serif; }
+  font-family: '$tipografiasecundaria', sans-serif; }
 
 /* BOTONES GRIS CONF */
 .botongris {
@@ -113,10 +113,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "nombre asunto"
- "mail mensaje"
- "telefono mensaje"
- ". boton";
+  grid-template-areas: "nombre asunto" "mail mensaje" "telefono mensaje" ". boton";
   align-items: center;
   justify-items: center;
   gap: 10px; }
@@ -205,7 +202,7 @@ p {
   position: relative; }
 
 .tarjeta__cta {
-  font-family: 'Mulish', sans-serif;
+  font-family: '$tipografiaprimaria', sans-serif;
   text-decoration: none;
   font-style: normal;
   font-size: 16px;
@@ -218,7 +215,7 @@ p {
   margin-top: 2rem; }
 
 .tarjeta__txt {
-  font-family: 'Roboto', sans-serif;
+  font-family: '$tipografiasecundaria', sans-serif;
   font-style: italic;
   color: #ABABAB;
   text-align: left;
@@ -280,15 +277,17 @@ p {
 
 .tarjetapersona__img {
   object-fit: cover;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   border-radius: 148px;
-  /* como las redondeo? */ }
+  /* como las redondeo? */
+  padding: 2rem; }
 
 .tarjetapersona__nombre {
   color: #2C2C2C;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3rem; }
 
 .tarjetapersona__ocupacion {
   color: #FFBF5F;
@@ -347,10 +346,13 @@ p {
   flex-direction: row;
   list-style-type: none; }
 
+.bg-light {
+  background-color: #fff !important; }
+
 .navbar a {
   list-style: none;
   color: #2C2C2C;
-  font-family: 'Mulish', sans-serif;
+  font-family: '$tipografiaprimaria', sans-serif;
   text-decoration: none;
   font-style: normal;
   font-size: 16px;
@@ -380,7 +382,7 @@ p {
 
 .footer__derechos {
   color: #EDEDED;
-  font-family: 'Mulish', sans-serif;
+  font-family: '$tipografiaprimaria', sans-serif;
   font-size: 14px;
   font-style: italic;
   padding-top: 4rem; }
@@ -390,13 +392,13 @@ p {
 
 .footer__left p {
   color: #EDEDED;
-  font-family: 'Mulish', sans-serif;
+  font-family: '$tipografiaprimaria', sans-serif;
   font-size: 18px;
   font-style: italic; }
 
 .footer__right p {
   color: #EDEDED;
-  font-family: 'Mulish', sans-serif;
+  font-family: '$tipografiaprimaria', sans-serif;
   font-size: 18px;
   font-style: italic; }
 
@@ -427,7 +429,7 @@ p {
 .parrafos ul {
   text-decoration: none;
   list-style-type: none;
-  font-family: 'Roboto', sans-serif; }
+  font-family: '$tipografiasecundaria', sans-serif; }
 
 /* GALERIA */
 .galeriabanner {
@@ -596,12 +598,7 @@ p {
   .formulario__contenedor form {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr;
-    grid-template-areas: "nombre"
- "email"
- "telefono"
- "asunto"
- "mensaje"
- "boton"; }
+    grid-template-areas: "nombre" "email" "telefono" "asunto" "mensaje" "boton"; }
   .nombre {
     grid-area: nombre; }
   .asunto {
