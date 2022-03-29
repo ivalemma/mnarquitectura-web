@@ -525,7 +525,7 @@ p {
     margin-bottom: 2rem; }
   .tarjetacontenedor img {
     margin: 0;
-    width: 400px;
+    width: max-content;
     height: auto; }
   .fraselanding h2 {
     font-size: 18px; }
@@ -567,8 +567,7 @@ p {
     max-width: 100%;
     padding: 0;
     gap: 0;
-    justify-content: left;
-    background-color: black; }
+    justify-content: left; }
   .textolanding h2 {
     font-size: 18px; }
   .textolanding h1 {
@@ -582,9 +581,9 @@ p {
     left: 0; }
   .tarjetacontenedor img {
     margin: 0;
-    width: 240px;
+    width: max-content;
     height: auto; }
-  .tarjeta__txt {
+  .textotarjeta p {
     display: none; }
   /* GALERIA */
   .galeria {
