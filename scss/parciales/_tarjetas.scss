@@ -43,7 +43,16 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    ;
+    
+}
+.tarjetacontenedor2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    
 }
 .textotarjeta{
     
@@ -52,12 +61,32 @@
     max-height: fit-content;
     max-width: 50%;
     justify-content: space-around;
+    
+    
+    
+}
+.textotarjeta2{
+    
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    max-width: 50%;
+    justify-content: space-around;
+    margin-left: 2rem;
+    
 }
 
 .tarjeta__imagen {
     height: 360px;
     border-radius: 14px;
     position: relative;
+    
+} 
+.tarjeta__imagen2 {
+    height: 400px;
+    border-radius: 14px;
+    position: relative;
+    
     
 } 
 .tarjeta__cta {
@@ -73,8 +102,31 @@
     max-height: 56px;
     margin-top: 2rem;   
 }
+.tarjeta__cta2 {
+    font-family: '$tipografiaprimaria', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    max-width: 136px; 
+    max-height: 56px;
+    margin-top: 2rem;   
+}
+
 
 .tarjeta__txt{
+    font-family: '$tipografiasecundaria', sans-serif;
+    font-style: italic;
+    color: $colorprimario;
+    text-align: left;
+    text-align: justify;
+    max-width: 80%;
+    
+}
+.tarjeta__txt2{
     font-family: '$tipografiasecundaria', sans-serif;
     font-style: italic;
     color: $colorprimario;
@@ -90,7 +142,7 @@
 }
 
 .tarjeta__cta{
-    background-color:#e4e4e4;
+    background-color:white;
         border-radius: 16px;
         border: 4px #6e6e6e;
         color: #eeeeee;
@@ -99,6 +151,19 @@
         padding: 12px;
 }
 .tarjeta__cta a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+.tarjeta__cta2{
+    background-color:white;
+        border-radius: 16px;
+        border: 4px #6e6e6e;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 18px;
+        padding: 12px;
+}
+.tarjeta__cta2 a {
     text-decoration: none;
     color: #6e6e6e;
 }
