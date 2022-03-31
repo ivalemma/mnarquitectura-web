@@ -3,6 +3,14 @@
 #ABABAB gris medio
 #FFBF5F naranja
 #EDEDED gris claro */
+.footer__left, .footer__right p {
+  font-style: italic;
+  line-height: 1.2; }
+
+.footer__left, .footer__right p span {
+  color: #FFBF5F;
+  font-weight: 100; }
+
 /* LANDING */
 .landingcontenedor {
   max-width: 60%;

@@ -17,6 +17,9 @@ $fuente-mulish: (
     coloracento: $coloracento,
     estiloitalic: italic,
     spacing: 1.2,
+    thin: 100,
+    thick: 600,
+    /* en body esta establecido el medio */
 );
 
 .footer__left, .footer__right p {
@@ -25,5 +28,7 @@ $fuente-mulish: (
 }
 .footer__left, .footer__right p span {
     color: map-get($fuente-mulish, coloracento );
+    font-weight: map-get($fuente-mulish, thin );
+
 }
 
