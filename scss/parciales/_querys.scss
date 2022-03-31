@@ -36,9 +36,33 @@
     .tarjetacontenedor img {
         margin: 0;
         width: max-content;
-        height: auto;
-        
+        height: auto;  
     }
+    .tarjetacontenedor2{
+    flex-direction: column;
+    padding: 1rem;
+    max-width:100%;
+    
+    }
+
+    .textotarjeta2{
+        max-width: fit-content;
+        justify-content: center;
+        margin: auto;
+    }
+    .textotarjeta2 p, .textotarjeta2 h2{
+        max-width: 100%;
+    }
+
+    .tarjetacontenedor2 button {
+        margin-bottom: 2rem;
+    }
+    .tarjetacontenedor2 img {
+        margin: 0;
+        width: max-content;
+        height: auto;  
+    }
+
     .fraselanding h2{
         font-size: 18px;
     }
@@ -127,15 +151,32 @@
     }
     
 
-    .tarjetacontenedor img {
-        margin: 0;
-        width: max-content;
-        height: auto;
+    .tarjeta {
+        padding: 0;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
         
     }
     .textotarjeta p {
         display: none;
     }
+    .tarjeta__imagen{
+        max-width: 100%;
+        margin: auto;
+    }
+    .tarjeta__cta{
+        display: none;
+    }
+    .textotarjeta2 p {
+        display: none;
+    }
+    .tarjeta__imagen2{
+        max-width: 100%;
+        margin: auto;
+    }
+    .tarjeta__cta2{
+        display: none;
+    }
+
 
     /* GALERIA */
 
@@ -254,6 +295,10 @@
     }
     .footer__right {
         display: none;
+    }
+
+    .footer__left{
+        margin-bottom: 0;
     }
 
     
