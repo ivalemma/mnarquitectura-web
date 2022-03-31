@@ -11,3 +11,19 @@ $colortypo: #2C2C2C;
 
 $tipografiaprimaria: 'Mulish', sans-serif;
 $tipografiasecundaria: 'Roboto', sans-serif; 
+
+$fuente-mulish: (
+    colorsecundario: $colorsecundario,
+    coloracento: $coloracento,
+    estiloitalic: italic,
+    spacing: 1.2,
+);
+
+.footer__left, .footer__right p {
+    font-style: map-get($fuente-mulish, estiloitalic );
+    line-height: map-get($fuente-mulish, spacing );
+}
+.footer__left, .footer__right p span {
+    color: map-get($fuente-mulish, coloracento );
+}
+
