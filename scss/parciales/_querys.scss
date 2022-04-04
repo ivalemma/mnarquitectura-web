@@ -262,13 +262,16 @@
     justify-content:center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    position: relative;
     
     
 }
 
 .tarjetapersona__img{
-    height: 52px;
+    height: 90px;
     width: auto;
+    justify-content:flex-start;
+    
 }
 
 .tarjetapersona__texto{
