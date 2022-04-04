@@ -292,6 +292,9 @@ p {
   font-size: 18px;
   padding: 12px; }
 
+.tarjeta__cta:hover .tarjeta__cta2:hover {
+  border: 2px solid #FFBF5F; }
+
 .tarjeta__cta a {
   text-decoration: none;
   color: #6e6e6e; }
@@ -347,17 +350,17 @@ p {
 
 .tarjetapersona__img {
   object-fit: cover;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
-  border-radius: 148px;
+  border-radius: 260px;
   /* como las redondeo? */
-  padding: 2rem; }
+  padding: 0; }
 
 .tarjetapersona__nombre {
   color: #2C2C2C;
   font-size: 20px;
   text-align: center;
-  margin-top: 3rem; }
+  margin-top: 2rem; }
 
 .tarjetapersona__ocupacion {
   color: #FFBF5F;

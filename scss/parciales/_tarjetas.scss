@@ -150,6 +150,9 @@
         font-size: 18px;
         padding: 12px;
 }
+.tarjeta__cta:hover .tarjeta__cta2:hover {
+    border: 2px solid $coloracento;
+}
 .tarjeta__cta a {
     text-decoration: none;
     color: #6e6e6e;
@@ -213,17 +216,17 @@
 
 .tarjetapersona__img {
     object-fit: cover;
-    width: 60%;
+    width:80%;
     margin: 0 auto;
-    border-radius: 148px; /* como las redondeo? */
-    padding: 2rem;
+    border-radius: 260px; /* como las redondeo? */
+    padding: 0;
 
 }
 .tarjetapersona__nombre {
     color: $colortypo;
     font-size: 20px;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     
 }
 
