@@ -88,6 +88,9 @@ h1 {
 h2 {
   font-size: 28px; }
 
+h3 {
+  font-size: 24px; }
+
 p {
   font-family: '$tipografiasecundaria', sans-serif; }
 
@@ -113,10 +116,7 @@ p {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
-  padding: 2rem;
-  background-color: #d8d7d7;
-  border-radius: 16px; }
+  padding: 2rem; }
 
 .formulario__contenedor {
   max-width: 600px;
@@ -375,7 +375,7 @@ p {
 
 .tarjetainfo {
   background-color: white;
-  width: 192px;
+  width: 200px;
   height: auto;
   padding: 1rem;
   display: flex;
@@ -560,19 +560,31 @@ p {
   padding: auto;
   margin: 2rem auto; }
 
-.paginacontacto {
-  background-color: #EDEDED; }
+/* .paginacontacto {
+    background-color: $colorsecundario;
+} */
+.contenedorcontacto {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  gap: 10px;
+  background-color: #EDEDED;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .infocontacto {
-  background-color: #EDEDED;
+  display: flex;
+  flex-direction: column;
   max-width: fit-content;
   height: auto;
-  display: flex;
   margin: 2rem auto;
   justify-content: center; }
 
-.formulario {
-  background-color: #EDEDED; }
+.formulario__contenedor {
+  max-height: fit-content;
+  justify-content: center;
+  align-items: center; }
 
 /* media querys */
 /* tienen que estar al final del archivo y tienen un orden indicado */
@@ -693,12 +705,16 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: auto; }
   /* CONTACTO */
-  .infocontacto {
+  .contenedorcontacto {
     flex-direction: column; }
+  .infocontacto {
+    flex-direction: column;
+    margin: auto; }
   .tarjetainfo {
     flex-direction: row;
     justify-content: center;
-    gap: 10px; }
+    gap: 10px;
+    width: 300px; }
   .tarjetainfo__txt {
     margin: 0; }
   .formulario {
@@ -706,8 +722,7 @@ p {
     margin: 1rem;
     padding: 1rem; }
   .formulario__contenedor {
-    max-width: max-content;
-    margin: 1rem; }
+    max-width: max-content; }
   .formulario__contenedor form {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr;

@@ -190,13 +190,22 @@
 
     /* CONTACTO */
 
+    .contenedorcontacto{
+        flex-direction: column;
+        
+    }
+
     .infocontacto {
         flex-direction: column;
+        
+        margin: auto;
     }
     .tarjetainfo{
         flex-direction: row;
         justify-content: center;
         gap: 10px;
+        width: 300px;
+        
     }
     .tarjetainfo__txt{
         margin: 0;
@@ -211,12 +220,12 @@
 
     .formulario__contenedor{
         max-width: max-content;
-        margin: 1rem;
+        
     }
 
     .formulario__contenedor form {
         grid-template-columns: 1fr;
-        grid-template-rows:1fr 1fr 1fr 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr;
         grid-template-areas: "nombre"
         "email"
         "telefono"

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,138 +30,150 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <img class="header__img" src="../imagenes/LogoEntero.svg" alt="Logo" class="logoheader">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/Galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/asesorias.html">Asesorias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/sobrenosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-            
-          </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/Galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/asesorias.html">Asesorias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/sobrenosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-      </nav>
+    </nav>
+
     <main>
-        <section class="contacto">
-            <h2>Contactanos</h2>
-        </section>
+        <div class="contenedorcontacto">
+            <section class="contacto">
+                <!-- <h2>Contactanos</h2> -->
+            </section>
 
-        <section class="infocontacto">
-            
-            <div class="tarjetainfo">
-                <img class="tarjetainfo__icon" src="../imagenes/logo.svg" alt="Telefono">
-                <p class="tarjetainfo__txt">TELEFONO</p>
-            </div>
-            <div class="tarjetainfo">
-                <img class="tarjetainfo__icon" src="../imagenes/logo.svg" alt="Telefono">
-                <p class="tarjetainfo__txt">UBICACION</p>
-            </div>
-            <div class="tarjetainfo">
-                <img class="tarjetainfo__icon" src="../imagenes/logo.svg" alt="Telefono">
-                <p class="tarjetainfo__txt">MAIL</p>
-            </div>
+            <section class="infocontacto">
 
-            <!-- tarjetas info de contactos -->
-        </section>
+                <div class="tarjetainfo">
+                    <img class="tarjetainfo__icon" src="../imagenes/logo.svg" alt="Telefono">
+                    <p class="tarjetainfo__txt">2216261068</p>
+                </div>
+                <div class="tarjetainfo">
+                    <img class="tarjetainfo__icon" src="../imagenes/logo.svg" alt="Ubicacion">
+                    <p class="tarjetainfo__txt">La Plata</p>
+                </div>
+                <div class="tarjetainfo">
+                    <img class="tarjetainfo__icon" src="../imagenes/logo.svg" alt="Mail">
+                    <p class="tarjetainfo__txt">mnarquitectos@gmail.com</p>
+                </div>
 
-        <section class="formulario">
-            <h3>Dejanos tu mensaje</h3>
-        <div class="formulario__contenedor">
-            <form>
-                <p class="nombre">
-                    <input type="text"name="Nombre" placeholder="Nombre" >
-                </p>
-                <p class="email">
-                    <input type="email" name="Email" placeholder="nombre@ejemplo.com"/>
-                </p>
-                <p class="telefono">
-                    <input  type="phone" name="Telefono" placeholder="2216261068">
-                </p>
-                <p class="asunto">
-                    <input  type="text"name="Asunto" placeholder="Asunto" >
-                </p>
-                <p class="mensaje">
-                    <textarea rows="6" cols="20"></textarea>
-                </p>
-                <p class="boton">
-                    <input class="botonform--enviar" type="submit" name="Enviar" value="Enviar">
-                </p>
-            </form>
+                <!-- tarjetas info de contactos -->
+            </section>
+
+            <section class="formulario">
+                <h3>Dejanos tu mensaje</h3>
+                <div class="formulario__contenedor">
+                    <form>
+                        <p class="nombre">
+                            <input type="text" name="Nombre" placeholder="Nombre">
+                        </p>
+                        <p class="email">
+                            <input type="email" name="Email" placeholder="nombre@ejemplo.com" />
+                        </p>
+                        <p class="telefono">
+                            <input type="phone" name="Telefono" placeholder="2216261068">
+                        </p>
+                        <p class="asunto">
+                            <input type="text" name="Asunto" placeholder="Asunto">
+                        </p>
+                        <p class="mensaje">
+                            <textarea rows="6" cols="20"></textarea>
+                        </p>
+                        <p class="boton">
+                            <input class="botonform--enviar" type="submit" name="Enviar" value="Enviar">
+                        </p>
+                    </form>
+                </div>
+            </section>
         </div>
-    </section>
-        
+
     </main>
     <footer class="footer">
         <section class="footer__contenedor">
-        <!-- aca podemos poner un nav, porque es contenedor de navegacion pero para liks externos (como redes sociales) podemos usar div -->
-        <section class="footer__left"> <!-- seccion left -->
-            <p>
-                NESTOR NELE
-            </p>
-            <p>
-                FITO NAPOLITANO
-            </p>
-            <p>
-                <span>ARQUITECTOS</span>
-            </p>
-            <p>
-                <span>+</span> VALERIA CERRI
-            </p>
-            <p>
-                <span>INTERIORISMO</span>
-            </p>
+            <!-- aca podemos poner un nav, porque es contenedor de navegacion pero para liks externos (como redes sociales) podemos usar div -->
+            <section class="footer__left">
+                <!-- seccion left -->
+                <p>
+                    NESTOR NELE
+                </p>
+                <p>
+                    FITO NAPOLITANO
+                </p>
+                <p>
+                    <span>ARQUITECTOS</span>
+                </p>
+                <p>
+                    <span>+</span> VALERIA CERRI
+                </p>
+                <p>
+                    <span>INTERIORISMO</span>
+                </p>
+            </section>
+            <section class="footer__medio">
+                <!-- Seccin del medio -->
+                <div class="footer__logo">
+                    <img src="../imagenes/LogoGris.svg" alt="Logo">
+                </div>
+                <div class="_footer_iconos">
+                    <a title="Facebook" href="https://facebook.com" target="_blank"><img
+                            src="../imagenes/icono facebook.svg" alt="Facebook" />
+                    </a>
+                    <a title="Instagram" href="https://instagram.com" target="_blank"><img
+                            src="../imagenes/icono instagram.svg" alt="Instagram" />
+                    </a>
+                    <a title="LinkedIn" href="https://linkedin.com" target="_blank"><img
+                            src="../imagenes/icono linkedin.svg" alt="LinkedIn" />
+                    </a>
+                </div>
+                <div class="footer__derechos">
+                    <p>Todos los derechos reservados 2022 </p>
+                </div>
+            </section>
+            <section class="footer__right">
+                <!-- seccion right -->
+                <p>
+                    LA PLATA, BUENOS AIRES
+                </p>
+                <p>
+                    <span>OFICINAS</span>
+                </p>
+                <p>
+                    MNARQUITECTOS@GMAIL.COM
+                </p>
+                <p>
+                    <span>CONTACTO</span>
+                </p>
+            </section>
         </section>
-        <section class="footer__medio"> <!-- Seccin del medio -->
-            <div class="footer__logo">
-                <img src="../imagenes/LogoGris.svg" alt="Logo">
-            </div>
-            <div class="_footer_iconos">
-                <a title="Facebook" href="https://facebook.com" target="_blank"><img src="../imagenes/icono facebook.svg" alt="Facebook"/>
-                </a>
-                <a title="Instagram" href="https://instagram.com" target="_blank"><img src="../imagenes/icono instagram.svg" alt="Instagram"/>
-                </a>
-                <a title="LinkedIn" href="https://linkedin.com" target="_blank"><img src="../imagenes/icono linkedin.svg" alt="LinkedIn"/>
-                </a>
-            </div>
-            <div class="footer__derechos">
-                <p>Todos los derechos reservados 2022 </p>
-            </div>
-        </section>
-        <section class="footer__right"> <!-- seccion right -->
-            <p>
-                LA PLATA, BUENOS AIRES
-            </p>
-            <p>
-                <span>OFICINAS</span>
-            </p>
-            <p>
-                MNARQUITECTOS@GMAIL.COM
-            </p>
-            <p>
-                <span>CONTACTO</span>
-            </p>
-        </section>    
-    </section>
-      
+
     </footer>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

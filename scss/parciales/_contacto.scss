@@ -5,17 +5,33 @@
     padding: auto;
     margin: 2rem auto;
 }
-.paginacontacto {
+/* .paginacontacto {
     background-color: $colorsecundario;
+} */
+.contenedorcontacto{
+    display: flex;
+    max-width: 80%;
+    margin:auto;
+    gap: 10px;
+    background-color: $colorsecundario;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .infocontacto {
-    background-color: $colorsecundario;
+    display: flex;
+    flex-direction: column;
     max-width: fit-content;
     height: auto;
-    display: flex;
     margin: 2rem auto;
     justify-content: center;
 }
-.formulario {
-    background-color: $colorsecundario;
+
+
+.formulario__contenedor {
+    
+    max-height: fit-content;
+    justify-content: center;
+    align-items: center;
+  
 }

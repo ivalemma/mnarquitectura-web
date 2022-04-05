@@ -27,6 +27,9 @@ h1 {
 h2 {
     font-size: 28px;
 }
+h3{
+   font-size:  24px;
+}
 
 p {
     font-family: '$tipografiasecundaria', sans-serif;
@@ -60,10 +63,9 @@ color: #6e6e6e;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 32px;
     padding: 2rem;
-    background-color: rgb(216, 215, 215);
-    border-radius: 16px;
+    
+    
 }
 
 .formulario__contenedor { 
