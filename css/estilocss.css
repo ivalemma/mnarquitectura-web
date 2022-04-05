@@ -125,28 +125,10 @@ p {
   padding: 2rem; }
 
 .formulario__contenedor form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "nombre asunto" "mail mensaje" "telefono mensaje" ". boton";
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
-  gap: 10px; }
-
-.nombre {
-  grid-area: nombre; }
-
-.asunto {
-  grid-area: asunto; }
-
-.email {
-  grid-area: mail; }
-
-.mensaje {
-  grid-area: mensaje; }
-
-.telefono {
-  grid-area: telefono; }
+  justify-items: center; }
 
 .botonform--enviar {
   height: 32px;
@@ -555,17 +537,12 @@ p {
   justify-content: center; }
 
 /* CONTACT PAGE */
-.contacto {
-  max-width: 80%;
-  padding: auto;
-  margin: 2rem auto; }
-
 /* .paginacontacto {
     background-color: $colorsecundario;
 } */
 .contenedorcontacto {
   display: flex;
-  max-width: 80%;
+  max-width: 60%;
   margin: auto;
   gap: 10px;
   background-color: #EDEDED;
@@ -646,6 +623,10 @@ p {
   .footer__left p, .footer__right p {
     font-size: 14px; } }
 
+/* contasct form */
+.contenedorcontacto {
+  max-width: 80%; }
+
 /* MOBILE */
 @media screen and (max-width: 600px) {
   h2 {
@@ -706,7 +687,8 @@ p {
     grid-template-rows: auto; }
   /* CONTACTO */
   .contenedorcontacto {
-    flex-direction: column; }
+    flex-direction: column;
+    margin: auto; }
   .infocontacto {
     flex-direction: column;
     margin: auto; }
@@ -719,7 +701,7 @@ p {
     margin: 0; }
   .formulario {
     max-width: max-content;
-    margin: 1rem;
+    margin: auto;
     padding: 1rem; }
   .formulario__contenedor {
     max-width: max-content; }

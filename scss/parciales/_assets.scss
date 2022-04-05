@@ -76,39 +76,12 @@ color: #6e6e6e;
 }
 
 .formulario__contenedor form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "nombre asunto"
-        "mail mensaje"
-        "telefono mensaje"
-        ". boton";
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-items: center;
-    gap: 10px;
     
-}
-
-
-.nombre {
-    grid-area: nombre;
-}
-
-.asunto {
-    grid-area: asunto;
-}
-
-.email {
-    grid-area: mail;
-}
-
-.mensaje {
-    grid-area: mensaje;
-}
-
-.telefono {
-    grid-area: telefono;
+    
 }
 
 .botonform--enviar  {

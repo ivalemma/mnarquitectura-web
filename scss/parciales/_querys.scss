@@ -94,6 +94,11 @@
     }
 }
 
+/* contasct form */
+.contenedorcontacto{
+    max-width: 80%;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 600px) {
@@ -192,6 +197,7 @@
 
     .contenedorcontacto{
         flex-direction: column;
+        margin: auto;
         
     }
 
@@ -213,7 +219,7 @@
 
     .formulario{
         max-width: max-content;
-        margin: 1rem;
+        margin: auto;
         padding: 1rem;
                 
     }
