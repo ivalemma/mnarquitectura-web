@@ -32,7 +32,7 @@
 
 .imagenlanding img {
   border-radius: 14px;
-  height: 400px;
+  height: 500px;
   position: relative; }
 
 .fraselanding {
@@ -114,8 +114,7 @@ p {
 /* FORM STYLE */
 .formulario {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 2rem; }
 
 .formulario__contenedor {
