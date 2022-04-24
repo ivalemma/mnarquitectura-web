@@ -3,17 +3,26 @@
 .galeriabanner {
     width:100%;
     height: 246px;
-    background-color: $colorprimario;
+    /* background-color: $colorprimario; */
     padding: 2rem; 
-    /* background-image: url(../imagenes/bannergaleria.jpg); */
+    background-image: url(../imagenes/bannergaleria.jpg);
     background-size: cover;
     margin-bottom: 2rem;
 }
 .galeriatxt {
-    max-width: 80%;
+    max-width: fit-content;
     padding: auto;
-    margin: 2rem auto;
+    margin: 2rem auto auto 2rem;
+    
 }
+
+.galeriatxt h2, .galeriatxt p {
+    background: linear-gradient(
+        transparent 50%,
+        $coloracento 50%
+    );
+}
+
 
 .galeria {
     max-width: 70%;

@@ -10,9 +10,16 @@
 }
 
 .asesorias__titulo {
-    max-width: 80%;
+    max-width: fit-content;
     padding: auto;
-    margin: 2rem auto;
+    margin: 2rem auto auto 2rem;
+}
+
+.asesorias__titulo h2, .asesorias__titulo p{
+    background: linear-gradient(
+        transparent 50%,
+        $coloracento 50%
+    );
 }
 
 .contenedorp {
