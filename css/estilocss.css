@@ -445,6 +445,9 @@ p {
   padding: 1rem;
   margin: 1rem; }
 
+._footer_iconos a {
+  text-decoration: none; }
+
 .footer__left p {
   color: #EDEDED;
   font-family: '$tipografiaprimaria', sans-serif;
@@ -560,7 +563,7 @@ p {
   flex-direction: column;
   max-width: fit-content;
   height: auto;
-  margin: 2rem auto;
+  margin: auto;
   justify-content: center; }
 
 .formulario__contenedor {
@@ -638,6 +641,8 @@ p {
     font-size: 18px; }
   h1 {
     font-size: 24px; }
+  h3 {
+    font-size: 16px; }
   p {
     font-size: 14px; }
   /* nav bar */
@@ -701,7 +706,7 @@ p {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    width: 300px; }
+    width: 250px; }
   .tarjetainfo__txt {
     margin: 0; }
   .formulario {
